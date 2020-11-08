@@ -1,0 +1,22 @@
+@media screen and (max-width:800px) {
+    nav {
+        .nav-link {
+            display: none;
+        }
+        .mobile-link {
+            display: block;
+        }
+    }
+    header .header-content {
+        h1,
+        p {
+            width: 100%;
+        }
+    }
+    .work .work-content .work-box {
+        width: 100%;
+        img {
+            display: none;
+        }
+    }
+}
